@@ -1,0 +1,57 @@
+@import "variable";
+
+.section {
+  @extend %bg-white;
+  @extend %pd-lr;
+  @extend %margin-bottom-10;
+  padding-bottom: 15px;
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+.title {
+  @extend %display-flex;
+  @extend %space-between;
+  @extend %align-center;
+  @extend %pd-ud;
+}
+
+//swiper
+.swiper-container {
+  @extend %bg-white;
+  @extend %overflow-hidden;
+  padding: 15px 0 30px;
+}
+
+.swiper-item {
+  @extend %pd-lr;
+  img {
+    width: 100%;
+  }
+}
+
+//slider
+.slider {
+  @extend %overflow-hidden;
+}
+
+.slider-container {
+  @extend %overflow-hidden;
+}
+
+.slider-wrap {
+  @extend %display-flex;
+  @extend %align-start;
+  @extend %flex-start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  img {
+    @extend %margin-right-10;
+  }
+}
+
+.card-lr {
+  @extend %pd-ud;
+}
+
+

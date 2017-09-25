@@ -1,0 +1,67 @@
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+big,
+em,
+img,
+sup,
+b,
+i,
+ol,
+ul,
+li,
+form,
+label,
+button,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-size: inherit;
+  font-family: "PingFang SC", "Lantinghei SC", "Siyuan", "Microsoft YaHei", "微软雅黑", SimSun, Arial;
+  -webkit-font-smoothing: antialiased;
+}
+
+i {
+  font-style: normal;
+}
+
+img {
+  border: none;
+  vertical-align: top;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  outline: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body{
+  background-color: #eaeaea;
+  font-size: 14px;
+  color: #2c2f31;
+}

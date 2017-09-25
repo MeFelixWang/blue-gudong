@@ -1,0 +1,129 @@
+//viewport
+%viewport {
+  margin: 55px 0;
+}
+
+//colors
+%color-black {
+  color: #000;
+}
+
+%color-blue {
+  color: #20a0ff;
+}
+%color-white{
+  color:#fff;
+}
+//background colors
+%bg-white {
+  background-color: #ffffff;
+}
+%bg-blue{
+  background-color: #20a0ff;
+}
+//border
+%border-top{
+  border-top:solid 1px #eaeaea;
+}
+%border-bottom {
+  border-bottom: solid 1px #eaeaea;
+}
+
+//margin
+%margin-right-10{
+  margin-right: 10px;
+}
+%margin-bottom-10{
+  margin-bottom: 10px;
+}
+//padding
+%pd-lr {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+%pd-ud {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+%overflow-hidden {
+  overflow: hidden;
+}
+
+//display
+%display-block {
+  display: block;
+}
+
+%display-flex {
+  display: flex;
+}
+
+%display-table {
+  display: table;
+}
+
+%display-table-cell {
+  display: table-cell;
+}
+//font-weight
+%font-bold{
+  font-weight: bold;
+}
+//flex-layout
+%space-between {
+  justify-content: space-between;
+}
+
+%flex-start {
+  justify-content: flex-start;
+}
+
+%align-center {
+  align-items: center;
+}
+
+%align-start {
+  align-items: flex-start;
+}
+
+%flex-wrap {
+  flex-wrap: wrap;
+}
+
+%flex-column {
+  flex-direction: column;
+}
+
+//position
+%position-relative {
+  position: relative;
+}
+%position-absolute{
+  position: absolute;
+}
+%position-fixed {
+  position: fixed;
+}
+
+//text-align
+%text-left {
+  text-align: left;
+}
+
+%text-center {
+  text-align: center;
+}
+
+%text-right {
+  text-align: right;
+}
+
+//text-overflow
+%text-overflow {
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
