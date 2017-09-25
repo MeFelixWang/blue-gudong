@@ -1,6 +1,6 @@
 # gudong
 
-> A Vue.js project
+> A Vue.js project with vue-router+swiper+es6+element-ui
 
 ![gif for project](https://github.com/MeFelixWang/blue-gudong/raw/master/blue-gudong.gif)
 ## Build Setup
