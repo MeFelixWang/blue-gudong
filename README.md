@@ -1,7 +1,7 @@
 # gudong
 
 > A Vue.js project
-
+！[image](https://github.com/MeFelixWang/raw/master/blue-gudong.jpg)
 ## Build Setup
 
 ``` bash
